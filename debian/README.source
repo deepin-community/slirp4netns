@@ -1,0 +1,12 @@
+slirp4netns for Debian
+---------------------
+
+At time of packaging, upstream does not do formal releases yet. Therefore,
+I'm using a relatively modern uscan(1) feature to generate sources straight
+out of github.
+
+cf. https://github.com/rootless-containers/slirp4netns/issues/44
+
+
+ -- Reinhard Tartler <siretart@tauware.de>, Wed, 26 Dec 2018 09:33:14 -0500
+
