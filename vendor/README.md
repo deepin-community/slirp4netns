@@ -1,7 +1,7 @@
 # DO NOT EDIT MANUALLY
 
 Vendored components:
-* parson: https://github.com/kgabis/parson.git (`70dc239f8f54c80bf58477b25435fd3dd3102804`)
+* parson: https://github.com/kgabis/parson.git (`60c37844d7a1c97547812cac3423d458c73e60f9`)
 
 Please do not edit the contents under this directory manually.
 
