@@ -1,12 +1,13 @@
 AC_PREREQ([2.69])
-AC_INIT([slirp4netns], [1.0.1], [https://github.com/rootless-containers/slirp4netns/issues])
+AC_INIT([slirp4netns], [1.2.1], [https://github.com/rootless-containers/slirp4netns/issues])
 AC_CONFIG_SRCDIR([main.c])
 AC_CONFIG_HEADERS([config.h])
 
 AC_PROG_CC
 AC_PROG_RANLIB
 
-AM_INIT_AUTOMAKE([1.9 foreign subdir-objects])
+AM_INIT_AUTOMAKE([1.11.2 foreign subdir-objects])
+AM_PROG_AR
 
 AC_CHECK_HEADERS([arpa/inet.h fcntl.h netdb.h netinet/in.h stddef.h stdint.h stdlib.h string.h sys/ioctl.h sys/mount.h sys/socket.h sys/timeb.h unistd.h getopt.h])
 
@@ -29,7 +30,7 @@ AC_FUNC_STRTOD
 AC_FUNC_FORK
 AC_FUNC_MALLOC
 AC_FUNC_REALLOC
-AC_CHECK_FUNCS([atexit clock_gettime dup2 getopt_long inet_ntoa memmove memset mkdir regcomp rmdir socket strcasecmp strchr strdup strerror strstr strtol strtoul])
+AC_CHECK_FUNCS([atexit clock_gettime dup2 getopt_long memmove memset mkdir regcomp rmdir socket strcasecmp strchr strdup strerror strstr strtol strtoul])
 
 PKG_CHECK_MODULES(GLIB, glib-2.0)
 PKG_CHECK_MODULES(SLIRP, slirp >= 4.1.0)

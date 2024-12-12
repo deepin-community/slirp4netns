@@ -1,8 +1,8 @@
 #!/bin/bash
 set -eux -o pipefail
 
-# Feb 21, 2020
-PARSON_COMMIT=70dc239f8f54c80bf58477b25435fd3dd3102804
+# v1.5.2 (May 21, 2023)
+PARSON_COMMIT=60c37844d7a1c97547812cac3423d458c73e60f9
 PARSON_REPO=https://github.com/kgabis/parson.git
 
 # prepare
